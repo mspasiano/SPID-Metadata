@@ -8,17 +8,17 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>YUoe7JDLvW0x6o+y0An12cQfKv8PM/1sVOZYm2Cz9VI=</ds:DigestValue>
+<ds:DigestValue>jp+vsYWU8gbXJLRT1bLjpAh+N0oaw2JKm7Fgy9U4/5M=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-LbasWg6W3M2K988M+XRSO+Fu/ASRGzHBEWuLuvDueUJ1dQPjuc8io4DI5pPlnUXI6yBR0mJIKGpQ
-90iU6/4/AvdislQHJC1Mg3tkzfQ7sgsZwBS4G/3iYAmvXeSzGOPVl1zf5UJ2IaD/vCXsL7pTbFkC
-KbCilopljZZP2+H67TDGAXXX8LSPo1rtfhee9/ojKorKAeyQZxW2qS8iEK/wcbDoOJjI7TZSmsPL
-gsX30QBTPfjA1EQOkFCG41pryJFAl320cW9W88X5vq6BS9FAyDS+PRYHhLSmq263OQqA8d3F/YWX
-thIkruzF78AEovV/Olk93/i6op2eLOW+m4hCXwQ1VNzlsW4cyAXqsStKEa69SAvbrJC/BxMBCdOZ
-r3hDLvlVx6eWQcRibJDYMgcPgRxnUHLWrP/9ekKe/8NfXeeHEkLkNFT6E5Zd1pItHDSbn54pwALs
-hVP+IJj23a7s/SFH0AEyYo1sz40xeOkXlYUNvwrIlrkbj38kw+mHRWfM
+hA0b7sxwuq8RHxMideT3T7KswdNN4ZSP7rZDQ+aaZDkQLkZBYsUBhCplMt31+nb8YNtP2bbUvy6N
+V1YvJPOKBivOwlKOy3DV6a19eM5biTYL+UP/IcdgGCHNtM0bc0HikeWDoWy1FbTTfzkET/5pvCO+
+EHQpESY8LemdnY6GjR/LHKHL7HTKhGjSIBxS3afOkJ+j0p3/XGZ4PsSlWwwJEpmUVbPho0G3hB48
+ORkr4endvINEHl7IeKfvSbFpjYwLxKsxxZllLwuMfqIb2h+fX32k7+jTw1h7jo3Tqt/iCDnt2YnY
+KT9tnVOhjlyeQbbCnSYbq25Y8Kkk5QUdpFAwG0Vf1Mwjji8s6LUOkOsVA1oeqK5MI458U01QaZCL
+sd9fE9kV6fepLCQ+dAwC7bhgVT69TI4JihzVWBpBfr5IfXhoH6oQaLpz18BvNhZZeY2bp5myHqO0
+gE75sAiD4ixIeKbwyJLFyEQZfNp07iG4Ds5rseJ50Vp3VLUHqrsBrXJq
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -228,7 +228,7 @@ t9fQrLophVqIChYy0a9osT2Kp+2ZUyBBUdWOZJjgW/M=
 			<spid:IPACode>cnr</spid:IPACode>
 			<spid:Public/>
 		</md:Extensions>
-		<md:Company>Consiglio Nazionale delle Ricerche</md:Company>
+		<md:Company>cnr</md:Company>
 		<md:EmailAddress>protocollo-ammcen@pec.cnr.it</md:EmailAddress>
 	</md:ContactPerson>
 </md:EntityDescriptor>
