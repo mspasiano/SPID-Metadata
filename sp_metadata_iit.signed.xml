@@ -8,17 +8,17 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>0u8fh9KRTX6LF+JhF2QEBcyC2fSGVpK+1SKq4ySGTAA=</ds:DigestValue>
+<ds:DigestValue>YUoe7JDLvW0x6o+y0An12cQfKv8PM/1sVOZYm2Cz9VI=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-oe85IaEu+KZ6jM7Y4h+LWe40as8fw4P8F92ZNYcX2DNFzOp17Pnm53VY1I2DVAMxYCHFtVjzBR4n
-LyivGLW4pGWKMB51roS+8LdTIShGjT1gv6lw7L8Et8d7lXaed5Egp0vWJstCcQfZnLWjh4sxg57W
-yBHokSmEDLBMxUfcHnhnwhJMXX9uwx1qjAwdL1abInkbTB2yrePCSJDG2p03Nq2AV5k8U4bcls6q
-fONQl5k1rT0aSIuYRrXOB20MIg84bANXtwBFqZgZxPcKJ67Ayq7m4cL7b1oeFCmyCNBDlDKQeBGo
-C24+Q2XQeBbQRE9t61KbzBqNj/yiu7CD/3GfwYIf9y3FsTO+0E+MUH8juCLcHYte0JHTcbeC45ft
-dx8ZEQcXEQfiDt8hRkC2LnN0mywzA9WxoX3u9BzLjoHuTvL8nc5S67LUexTVna9+3LTMZSsRnX/F
-Fs+tNHK6tUBp60kXsIq0XKHEKiLcsPO17J7wZBIwSdynEfTPvoqxGliP
+LbasWg6W3M2K988M+XRSO+Fu/ASRGzHBEWuLuvDueUJ1dQPjuc8io4DI5pPlnUXI6yBR0mJIKGpQ
+90iU6/4/AvdislQHJC1Mg3tkzfQ7sgsZwBS4G/3iYAmvXeSzGOPVl1zf5UJ2IaD/vCXsL7pTbFkC
+KbCilopljZZP2+H67TDGAXXX8LSPo1rtfhee9/ojKorKAeyQZxW2qS8iEK/wcbDoOJjI7TZSmsPL
+gsX30QBTPfjA1EQOkFCG41pryJFAl320cW9W88X5vq6BS9FAyDS+PRYHhLSmq263OQqA8d3F/YWX
+thIkruzF78AEovV/Olk93/i6op2eLOW+m4hCXwQ1VNzlsW4cyAXqsStKEa69SAvbrJC/BxMBCdOZ
+r3hDLvlVx6eWQcRibJDYMgcPgRxnUHLWrP/9ekKe/8NfXeeHEkLkNFT6E5Zd1pItHDSbn54pwALs
+hVP+IJj23a7s/SFH0AEyYo1sz40xeOkXlYUNvwrIlrkbj38kw+mHRWfM
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -199,9 +199,7 @@ t9fQrLophVqIChYy0a9osT2Kp+2ZUyBBUdWOZJjgW/M=
 		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/SpidItalia/endpoint" index="26"/>
 		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Tim/endpoint" index="27"/>
 		<md:AttributeConsumingService index="1" isDefault="true">
-			<md:ServiceName xml:lang="it">
-                Single sign-on
-            </md:ServiceName>
+			<md:ServiceName xml:lang="it">Single sign-on</md:ServiceName>
 			<md:RequestedAttribute FriendlyName="Email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
 			<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
@@ -218,35 +216,19 @@ t9fQrLophVqIChYy0a9osT2Kp+2ZUyBBUdWOZJjgW/M=
 		</md:AttributeConsumingService>
 	</md:SPSSODescriptor>
 	<md:Organization>
-		<md:OrganizationName xml:lang="it">
-            cnr
-        </md:OrganizationName>
-		<md:OrganizationName xml:lang="en">
-            cnr
-        </md:OrganizationName>
-		<md:OrganizationDisplayName xml:lang="it">
-            CNR
-        </md:OrganizationDisplayName>
-		<md:OrganizationDisplayName xml:lang="en">
-            CNR
-        </md:OrganizationDisplayName>
-		<md:OrganizationURL xml:lang="it">
-            https://cnr.it
-        </md:OrganizationURL>
-		<md:OrganizationURL xml:lang="en">
-            https://cnr.it
-        </md:OrganizationURL>
+		<md:OrganizationName xml:lang="it">cnr</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">cnr</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">CNR</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">CNR</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://cnr.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://cnr.it</md:OrganizationURL>
 	</md:Organization>
 	<md:ContactPerson contactType="other">
 		<md:Extensions>
-			<spid:IPACode>
-                cnr
-            </spid:IPACode>
+			<spid:IPACode>cnr</spid:IPACode>
 			<spid:Public/>
 		</md:Extensions>
-		<md:Company>
-            Consiglio Nazionale delle Ricerche
-        </md:Company>
+		<md:Company>Consiglio Nazionale delle Ricerche</md:Company>
 		<md:EmailAddress>protocollo-ammcen@pec.cnr.it</md:EmailAddress>
 	</md:ContactPerson>
 </md:EntityDescriptor>
