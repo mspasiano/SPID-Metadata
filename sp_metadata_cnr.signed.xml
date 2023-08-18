@@ -8,17 +8,17 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>Sw7nSqP3bRRv3WFhtf291ns2HgTfmKeztVlP+UKOaUc=</ds:DigestValue>
+<ds:DigestValue>IF0Dtu6NGXt/zMWTXSedD4und0zppE7e51DhNOe0j1s=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-oROt7wYUkmpdauruLAZlp7KuVSHEmrDIQlJ2vG5Bu0ZVarolL2fzJkrSOKtPMHmVigv6VzwQn0QL
-aGdV7RiPf5Y4+356XHs1vvCtdtvQ/c+FiebfU97646yVXO/ORgo/ovnhCbMGYnrgms7HIEuBHHbd
-9gRN1v1zelUtQUUyJwY5XmMBx407AO6g64SOWrQrXf94JeSykU5u5jq63u+N+0U/1MNnPK+axM7W
-yKqA2b1TaluUjx+VsBRX1gCOJErQDzsygC/gGz/bg0Zrt1GItG8s4F0ONIx6iq/6AjsarVZCSbC7
-Y7wpLJwbF2Bj7xJSWqdsO1ClkZcW22pGODgmNMRNae+hDXrQULigd1dFazyczVxxfZn5BhdHc/Yl
-kiH9F3haAXceuSVcabDCCnWKkXlLIOOlvd3t833l9mSNlXCt1AdDHluG7USYP+Hdoet/OxKJPV5k
-nnrvocrSRFz3DooI6Hs+1hANkugvebmYp1hQ+voV8dJBYHc0S7ef8FWl
+HirFlSfgMc2N/37ii9svaboqKHcAc4h7TKVkRL8oIfVKpIx6tn6os8gDf5DrzU6JHtg44TJuJI6i
+nOznDuUfytHZIKAT0pUSJB1t2e3WyJkZ8wrzr3WS0KmBxuNHWtC0tVeLMP2j4pUk/8gOcFZ8f16Y
+yQV3Nm/ifM+ohTPuIrktp5UzejCy6S1MyAyi3R9O+nDiW0Ao13vNcnzALd1FQlhEiB8/nwWNWIw5
+FofL51V6KUy328DtFwO/iNNxBrQ6/RQcdWHVQ9vo1rV38Yowz8luLTYEvLtOowHcKcqiExWzW0wm
+7+JqM5JqasFHNjLwIA+fZpcCDw3tvsFS/LLs8BWp9uwW3D6qfTIGTMiOlMxe4KFXBckb9X6wOtv+
+BIh/N5VGFFWDwcSNUJeucuqQw6oJFkQQUaP1/PWPNqjt/XFZEURXFIVD+4XwanWyGpKDdvUyjrRU
+Z4wSnPWYdgLhW5889CwjMfKQyyuxoIgJ7rEuKVKU02K/0axoCLE0eTvU
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -92,6 +92,7 @@ JYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Sielte/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/SpidItalia/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Tim/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/etnaid/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Aruba/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Infocert/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Intesa/endpoint"/>
@@ -101,6 +102,7 @@ JYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Sielte/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/SpidItalia/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Tim/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/etnaid/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Aruba/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Infocert/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Intesa/endpoint"/>
@@ -110,6 +112,7 @@ JYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Sielte/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/SpidItalia/endpoint"/>
         <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Tim/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/etnaid/endpoint"/>        
         <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
         <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Aruba/endpoint" index="0" isDefault="true"/>
         <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Infocert/endpoint" index="1"/>
