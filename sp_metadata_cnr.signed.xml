@@ -8,17 +8,17 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>mxNUoF0FeNEjz9+Uvdc3lVYRb761JhBgD7stk/nmHyM=</ds:DigestValue>
+<ds:DigestValue>hf7JX51XQ1WT7OCtqKf4Oob/logftsy4oe2NgpkM90c=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-TUPc6B+ojKu+nzHNgzA7dcesK9mmzSTz95eMFFp7Wdf8Egpm3HXYIK8mVomtKruHx+xn1oDYHa5X
-T9MfJJqUK0cR7tPYZRdoT6VG1C5aA0vzQoMxf0jC2pO32LIt3R+bF0JZTCcTdCV2sZePEEvN98tO
-Lu24N738gKGr6j/P5eOjuynJBNTRMEOk/ZzLwwllSzJblVS4yL2QieZ3pLISuKyUaNjn7UcQu02I
-oHxKd5EXb8kXgFzE89gyok3/ONqAF7qjt/9ZTq7l4NsR55zDFa0tdLgRLxuIjC8hCZ25BQ9cp6ZR
-wByu0GzviEWuUhDB5e0ote5uxQ3jE5b784TwuMekGGefFHXmkoc8cXBW2qooAHZ5OmZNdWqf0ryY
-eXgg8VDufg2b4ftUnbnFacHdvh0pVu6EO2Pe9GyddqdaPTS4nLd9QXQeOqW9ir5ksNvY5sdOB4fk
-D5uv4qJK+7MhggHfomXkJ48xZqaqdmahcEKSlakmgEyG7uk8+mz1QoC8
+y3CniLGu9jAjY+iWzMmOWNGlnCNSpg0GvHeRCZqMU8zqsfGu+f7ZK1NHV7bgnaxmlvmwHOrVgCb+
+mj8cIfDJ+kSA5VsvNtDoqrFH4XQf132BXMkXl29iZgtQVLsWSlb4LYqZ2Ft++meVyd9n+g5kcTcN
+ZUWdeoXDN0NjTVprC4V+2CtHA8UUDP7Bsd8PuPtQpRapv6swfdjGxNT3+rJe6QDedRr6ytKBJ0px
+39hb+RoPYapJ8T2EtfOIVye2NythlhgUpbyDLtHkG5zt+1y5Pw6I6p+xo/p064YbDQa4QwXw/D+l
+B8Nk60oCjnwNbm9dDwCAZWehR0c5JfnoxUjec41C/4HxfEw1VUiWgMdE11DxwwAdMcVbj1jqH5E7
+XSf+U/KtOkODN31XPIDFVRpDC4W7mOC6sUcujZUInpEMsGr93hacbL2KzjdroDdO9s7CeM3z29/G
+D+jO6Eoaf+WK7VGt1j+MRJZJRGQBG0xXOvc51wOF/pK6UOz/PjhMTMn/
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -193,6 +193,7 @@ JYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=
             <spid:Public/>
         </md:Extensions>
         <md:Company>cnr</md:Company>
+        <md:OrganizationName xml:lang="it">Consiglio Nazionale delle Ricerche – CNR</md:OrganizationName>
         <md:EmailAddress>protocollo-ammcen@pec.cnr.it</md:EmailAddress>
     </md:ContactPerson>
 </md:EntityDescriptor>
