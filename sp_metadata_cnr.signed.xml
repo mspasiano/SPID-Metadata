@@ -8,17 +8,17 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>hf7JX51XQ1WT7OCtqKf4Oob/logftsy4oe2NgpkM90c=</ds:DigestValue>
+<ds:DigestValue>rz8FIuMYPkn9/4bS0mC6JPpu8pf4FnFKmdjb3XnLrWQ=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-y3CniLGu9jAjY+iWzMmOWNGlnCNSpg0GvHeRCZqMU8zqsfGu+f7ZK1NHV7bgnaxmlvmwHOrVgCb+
-mj8cIfDJ+kSA5VsvNtDoqrFH4XQf132BXMkXl29iZgtQVLsWSlb4LYqZ2Ft++meVyd9n+g5kcTcN
-ZUWdeoXDN0NjTVprC4V+2CtHA8UUDP7Bsd8PuPtQpRapv6swfdjGxNT3+rJe6QDedRr6ytKBJ0px
-39hb+RoPYapJ8T2EtfOIVye2NythlhgUpbyDLtHkG5zt+1y5Pw6I6p+xo/p064YbDQa4QwXw/D+l
-B8Nk60oCjnwNbm9dDwCAZWehR0c5JfnoxUjec41C/4HxfEw1VUiWgMdE11DxwwAdMcVbj1jqH5E7
-XSf+U/KtOkODN31XPIDFVRpDC4W7mOC6sUcujZUInpEMsGr93hacbL2KzjdroDdO9s7CeM3z29/G
-D+jO6Eoaf+WK7VGt1j+MRJZJRGQBG0xXOvc51wOF/pK6UOz/PjhMTMn/
+WsqWQ+oi1uZhanP1A3naZ/W0mZpMLB8mOtzS+OBVsao7n2Mhbq0DQxBkwDOYUG3TFZFNnus9d0Uz
+d2/AuqsgYSntLUnnLvRRWIoeya7b7tjKfvANrM4WKLUQf7rgeLGtC68RTdwmf79m7yBTJG+l1zCu
+P8bfiAK/ivl5a1ChYXr8FCd5udJi1/g7jBTKO/xQZRQwFjNwEQRkVz8YqxvuxBbUeoeYPSr39Vkd
+ULFGV6JlDlvtBLMUE6Y88mtLohEO3QPOhqQOex7BbEG3Ws8UuANPXSqKeK/8kuwDgp5nWGrO3xw1
+Oy0xe63Q5bTJqDDbfO4MgzTZ/ioLLIR8LwH0ijsv7Oo/Y93ZuAUHyFR/5yF8vy64cZi+lpculsDO
+smJueN/u1Fza9hI7lvzqp6Go3B9l1PSPOt4Uxm3Sc5MTU/QKOZlt1h1m1f+naOtKpST6SCD1IthI
+g+mJYij+ma+vBAaALE0vZUkN6iau7fk1ynlqmlciekD2l92WV00w8guk
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -180,12 +180,9 @@ JYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=
         </md:AttributeConsumingService>
     </md:SPSSODescriptor>
     <md:Organization>
-        <md:OrganizationName xml:lang="it">Consiglio Nazionale delle Ricerche – CNR</md:OrganizationName>
-        <md:OrganizationName xml:lang="en">Consiglio Nazionale delle Ricerche – CNR</md:OrganizationName>
-        <md:OrganizationDisplayName xml:lang="it">CNR</md:OrganizationDisplayName>
-        <md:OrganizationDisplayName xml:lang="en">CNR</md:OrganizationDisplayName>
-        <md:OrganizationURL xml:lang="it">https://cnr.it</md:OrganizationURL>
-        <md:OrganizationURL xml:lang="en">https://cnr.it</md:OrganizationURL>
+        <md:OrganizationName>Consiglio Nazionale delle Ricerche – CNR</md:OrganizationName>
+        <md:OrganizationDisplayName>CNR</md:OrganizationDisplayName>
+        <md:OrganizationURL>https://cnr.it</md:OrganizationURL>
     </md:Organization>
     <md:ContactPerson contactType="other">
         <md:Extensions>
@@ -193,7 +190,6 @@ JYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=
             <spid:Public/>
         </md:Extensions>
         <md:Company>cnr</md:Company>
-        <md:OrganizationName xml:lang="it">Consiglio Nazionale delle Ricerche – CNR</md:OrganizationName>
         <md:EmailAddress>protocollo-ammcen@pec.cnr.it</md:EmailAddress>
     </md:ContactPerson>
 </md:EntityDescriptor>
