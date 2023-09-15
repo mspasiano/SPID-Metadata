@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:spid="https://spid.gov.it/saml-extensions" ID="ID_6ae80aed-3247-4647-bf5f-6f5294cbc2c7" entityID="https://www.cnr.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>rz8FIuMYPkn9/4bS0mC6JPpu8pf4FnFKmdjb3XnLrWQ=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+WsqWQ+oi1uZhanP1A3naZ/W0mZpMLB8mOtzS+OBVsao7n2Mhbq0DQxBkwDOYUG3TFZFNnus9d0Uz
+d2/AuqsgYSntLUnnLvRRWIoeya7b7tjKfvANrM4WKLUQf7rgeLGtC68RTdwmf79m7yBTJG+l1zCu
+P8bfiAK/ivl5a1ChYXr8FCd5udJi1/g7jBTKO/xQZRQwFjNwEQRkVz8YqxvuxBbUeoeYPSr39Vkd
+ULFGV6JlDlvtBLMUE6Y88mtLohEO3QPOhqQOex7BbEG3Ws8UuANPXSqKeK/8kuwDgp5nWGrO3xw1
+Oy0xe63Q5bTJqDDbfO4MgzTZ/ioLLIR8LwH0ijsv7Oo/Y93ZuAUHyFR/5yF8vy64cZi+lpculsDO
+smJueN/u1Fza9hI7lvzqp6Go3B9l1PSPOt4Uxm3Sc5MTU/QKOZlt1h1m1f+naOtKpST6SCD1IthI
+g+mJYij+ma+vBAaALE0vZUkN6iau7fk1ynlqmlciekD2l92WV00w8guk
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+51OuZ2IPR28UM5oyCFs749mWHkUnlQBFGCjOJ4H1yURt0USUJx989ZnBAvXCOCxbOJbe2aQ5RbY8
+rcWHVyFdqLONNrWhqFMn4g+W/gJs6oEMp1IbKJVKQhq7b0dZIDcR/P1FdwgQq+4NNGCml5N4WmaR
+Z7r6fPKXfAA4oRA4VfmcJniVsVFEDQq5SIgd0/rVm1+8ZKJoTKATdVER94OGwAXlZNNswoucNHfZ
+MCJZzB7akoZRUz5Vs0SgLQa74OP7rxabt60y8pgd7IvJIrjIm9+27n3n+5ajdxk9NfM1ZojMJV8c
+dWsbqIstESHxrY5vjBFe+JwHLioEpDBC481MNX2rWew0STV+3C++fFhYK5hmhStrKEHyxy6Z+HYg
+PfjBWpE3NRlGzg61QQeumX/Gr9l6+G5J07MhJQs7qiqTUVfpS7qyKmZIAET8hJ39/b6uXxnd/M8g
+bkNXQwQ31vxYzQ2sQWdPdK2IwisD6JsaGeYBwvFeNFsmVZKghTwmP8ol
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFETCCA3mgAwIBAgIUGkkqYbYyO8wlk77jh4Pjrtcs1PEwDQYJKoZIhvcNAQENBQAwgYgxDDAK
+BgNVBAMMA0NOUjELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExEjAQBgNVBGEMCVBBOklULWNu
+cjErMCkGA1UECgwiQ29uc2lnbGlvIE5hemlvbmFsZSBkZWxsZSBSaWNlcmNoZTEbMBkGA1UEUwwS
+aHR0cHM6Ly93d3cuY25yLml0MB4XDTIyMDUxNzEyNTI0MloXDTMyMDUxNDEyNTI0MlowgYgxDDAK
+BgNVBAMMA0NOUjELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExEjAQBgNVBGEMCVBBOklULWNu
+cjErMCkGA1UECgwiQ29uc2lnbGlvIE5hemlvbmFsZSBkZWxsZSBSaWNlcmNoZTEbMBkGA1UEUwwS
+aHR0cHM6Ly93d3cuY25yLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA51OuZ2IP
+R28UM5oyCFs749mWHkUnlQBFGCjOJ4H1yURt0USUJx989ZnBAvXCOCxbOJbe2aQ5RbY8rcWHVyFd
+qLONNrWhqFMn4g+W/gJs6oEMp1IbKJVKQhq7b0dZIDcR/P1FdwgQq+4NNGCml5N4WmaRZ7r6fPKX
+fAA4oRA4VfmcJniVsVFEDQq5SIgd0/rVm1+8ZKJoTKATdVER94OGwAXlZNNswoucNHfZMCJZzB7a
+koZRUz5Vs0SgLQa74OP7rxabt60y8pgd7IvJIrjIm9+27n3n+5ajdxk9NfM1ZojMJV8cdWsbqIst
+ESHxrY5vjBFe+JwHLioEpDBC481MNX2rWew0STV+3C++fFhYK5hmhStrKEHyxy6Z+HYgPfjBWpE3
+NRlGzg61QQeumX/Gr9l6+G5J07MhJQs7qiqTUVfpS7qyKmZIAET8hJ39/b6uXxnd/M8gbkNXQwQ3
+1vxYzQ2sQWdPdK2IwisD6JsaGeYBwvFeNFsmVZKghTwmP8olAgMBAAGjcTBvMAkGA1UdEwQCMAAw
+DgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURj
+ZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUA
+A4IBgQCv9QOapaDBrR75KyWEow8HyWB5wPF9Qbg6I7sF47ZCBul3Do+jwWtKzBfw5S9jsdOBXKbj
+kXLJbRnna0BCXqoyXWUwuRob0J+YWfbrl79NHqc0mqGX3B/Q+Dh+778lyds1k/mBVRx706t/t/Oh
+/PfKQ6M46ABOdolnwNE30CxLr/vVQa8odNLq+8tPYZ82zPGiXYfIzbJdy/+5ZwtXRhisml7zSgm6
+itEetBgZDXKNx5fd9VdMj2GJEMkK7JBsPPJETB+ftwIMEbtWgUt7bqH82AlDsRsmET7krTx6SKem
+8kNRCJo3Tpq+OLthDme12ACB/ekseQ0r5JxdIrWS4ij+0QlasNJHRO8BdYDk466PgDIazWhFgmOF
+0TbBJS+GbJs5k6lR5Rkq5JHL3THaG8ldB4N1LMl0N/VUJvSrxYtVHVD58+b+pK/5ybj36Qri87/G
+JYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:KeyName>ubRA_JSZj5vVO8EgbrsgkR7o3xgx79w1Pnc_f45KHZA</ds:KeyName>
+                <ds:X509Data>                   
+                    <ds:X509Certificate>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</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:KeyName>oBXXnwPP-OJ_Cv25jtNjbmkamuxxGJAPRzuoDm64Kk8</ds:KeyName>
+                <ds:X509Data>                   
+                    <ds:X509Certificate>MIIFETCCA3mgAwIBAgIUGkkqYbYyO8wlk77jh4Pjrtcs1PEwDQYJKoZIhvcNAQENBQAwgYgxDDAKBgNVBAMMA0NOUjELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExEjAQBgNVBGEMCVBBOklULWNucjErMCkGA1UECgwiQ29uc2lnbGlvIE5hemlvbmFsZSBkZWxsZSBSaWNlcmNoZTEbMBkGA1UEUwwSaHR0cHM6Ly93d3cuY25yLml0MB4XDTIyMDUxNzEyNTI0MloXDTMyMDUxNDEyNTI0MlowgYgxDDAKBgNVBAMMA0NOUjELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWExEjAQBgNVBGEMCVBBOklULWNucjErMCkGA1UECgwiQ29uc2lnbGlvIE5hemlvbmFsZSBkZWxsZSBSaWNlcmNoZTEbMBkGA1UEUwwSaHR0cHM6Ly93d3cuY25yLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA51OuZ2IPR28UM5oyCFs749mWHkUnlQBFGCjOJ4H1yURt0USUJx989ZnBAvXCOCxbOJbe2aQ5RbY8rcWHVyFdqLONNrWhqFMn4g+W/gJs6oEMp1IbKJVKQhq7b0dZIDcR/P1FdwgQq+4NNGCml5N4WmaRZ7r6fPKXfAA4oRA4VfmcJniVsVFEDQq5SIgd0/rVm1+8ZKJoTKATdVER94OGwAXlZNNswoucNHfZMCJZzB7akoZRUz5Vs0SgLQa74OP7rxabt60y8pgd7IvJIrjIm9+27n3n+5ajdxk9NfM1ZojMJV8cdWsbqIstESHxrY5vjBFe+JwHLioEpDBC481MNX2rWew0STV+3C++fFhYK5hmhStrKEHyxy6Z+HYgPfjBWpE3NRlGzg61QQeumX/Gr9l6+G5J07MhJQs7qiqTUVfpS7qyKmZIAET8hJ39/b6uXxnd/M8gbkNXQwQ31vxYzQ2sQWdPdK2IwisD6JsaGeYBwvFeNFsmVZKghTwmP8olAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBgQCv9QOapaDBrR75KyWEow8HyWB5wPF9Qbg6I7sF47ZCBul3Do+jwWtKzBfw5S9jsdOBXKbjkXLJbRnna0BCXqoyXWUwuRob0J+YWfbrl79NHqc0mqGX3B/Q+Dh+778lyds1k/mBVRx706t/t/Oh/PfKQ6M46ABOdolnwNE30CxLr/vVQa8odNLq+8tPYZ82zPGiXYfIzbJdy/+5ZwtXRhisml7zSgm6itEetBgZDXKNx5fd9VdMj2GJEMkK7JBsPPJETB+ftwIMEbtWgUt7bqH82AlDsRsmET7krTx6SKem8kNRCJo3Tpq+OLthDme12ACB/ekseQ0r5JxdIrWS4ij+0QlasNJHRO8BdYDk466PgDIazWhFgmOF0TbBJS+GbJs5k6lR5Rkq5JHL3THaG8ldB4N1LMl0N/VUJvSrxYtVHVD58+b+pK/5ybj36Qri87/GJYs7Ic6sJnftIxTNyXKQRmgFSsqMA8UIWF0uYgZlMGTd5MJubn3J9O4nwFDvwnw=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://selezionionline.cnr.it/jconon/rest/security/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Aruba/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Infocert/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Intesa/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Lepida/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Namirial/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Poste/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Sielte/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/SpidItalia/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Tim/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/etnaid/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/infocamere/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/intesigroup/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/register/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Aruba/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Infocert/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Intesa/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Lepida/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Namirial/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Poste/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Sielte/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/SpidItalia/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Tim/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/etnaid/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/infocamere/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/intesigroup/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/register/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Aruba/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Infocert/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Intesa/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Lepida/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Namirial/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Poste/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Sielte/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/SpidItalia/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Tim/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/etnaid/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/infocamere/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/intesigroup/endpoint"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/register/endpoint"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Aruba/endpoint" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Infocert/endpoint" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Intesa/endpoint" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Lepida/endpoint" index="3"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Namirial/endpoint" index="4"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Poste/endpoint" index="5"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Sielte/endpoint" index="6"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/SpidItalia/endpoint" index="7"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/Tim/endpoint" index="8"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://selezionionline.cnr.it/jconon/spid/send-response" index="9"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Aruba/endpoint" index="10"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Infocert/endpoint" index="11"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Intesa/endpoint" index="12"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Lepida/endpoint" index="13"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Namirial/endpoint" index="14"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Poste/endpoint" index="15"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Sielte/endpoint" index="16"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/SpidItalia/endpoint" index="17"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/Tim/endpoint" index="18"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Aruba/endpoint" index="19"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Infocert/endpoint" index="20"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Intesa/endpoint" index="21"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Lepida/endpoint" index="22"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Namirial/endpoint" index="23"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Poste/endpoint" index="24"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Sielte/endpoint" index="25"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/SpidItalia/endpoint" index="26"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/Tim/endpoint" index="27"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/etnaid/endpoint" index="28"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/etnaid/endpoint" index="29"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/etnaid/endpoint" index="30"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/infocamere/endpoint" index="31"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/infocamere/endpoint" index="32"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/infocamere/endpoint" index="33"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/intesigroup/endpoint" index="34"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/intesigroup/endpoint" index="35"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/intesigroup/endpoint" index="36"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.cnr.it/auth/realms/CNR/broker/register/endpoint" index="37"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.nic.it/auth/realms/spid/broker/register/endpoint" index="38"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.pubtest.nic.it/auth/realms/spid/broker/register/endpoint" index="39"/>
+        <md:AttributeConsumingService index="1" isDefault="true">
+            <md:ServiceName xml:lang="it">Single sign-on</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Data di nascita" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">Registro.it</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName>Consiglio Nazionale delle Ricerche – CNR</md:OrganizationName>
+        <md:OrganizationDisplayName>CNR</md:OrganizationDisplayName>
+        <md:OrganizationURL>https://cnr.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>cnr</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>cnr</md:Company>
+        <md:EmailAddress>protocollo-ammcen@pec.cnr.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
